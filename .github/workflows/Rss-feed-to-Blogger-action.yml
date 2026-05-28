@@ -20,7 +20,7 @@ jobs:
            GOOGLE_CREDENTIALS_Json: ${{ secrets.GOOGLE_CREDENTIALS_Json }}
            BloggerId: '592299419700806527'
            RSSFeedUrl: 'https://techcrunch.com/feed/'
-           FeedArticleStartCount: '66'
-           FeedArticleEndCount: '67'
+           FeedArticleStartCount: '1'
+           FeedArticleEndCount: '7'
            Labels: 'tech'
            ApiKey: ${{ secrets.ApiKey }}
