@@ -17,10 +17,10 @@ jobs:
         - name: Rss-feed-to-Blogger-action
           uses: SSanjeevi/rss-to-blogger@main
           with:
-           GOOGLE_CREDENTIALS_Json: ${{ secrets.GOOGLE_CREDENTIALS_Json }}
+           GOOGLE_CREDENTIALS_Json: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
            BloggerId: '592299419700806527'
            RSSFeedUrl: 'https://techcrunch.com/feed/'
            FeedArticleStartCount: '1'
            FeedArticleEndCount: '7'
            Labels: 'tech'
-           ApiKey: ${{ secrets.ApiKey }}
+           ApiKey: ${{ secrets.APIKEY }}
